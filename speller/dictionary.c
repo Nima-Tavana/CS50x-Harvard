@@ -45,7 +45,7 @@ bool check(const char *word)
 // Hashes word to a number
 unsigned int hash(const char *word)
 {
-    // TODO: Improve this hash function
+    // Improve this hash function
     int result = 0;
 
     for (int p = 0; p < strlen(word); p++)
